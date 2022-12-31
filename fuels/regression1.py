@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pylab as pl
 import matplotlib.pyplot as plt
-file="/home/dinesh/codeit/c++/ML/FuelConsumptionCo2.csv"
+file="FuelConsumptionCo2.csv"
 df=pd.read_csv(file)
 ndf=df[['ENGINESIZE','CYLINDERS','FUELCONSUMPTION_COMB','CO2EMISSIONS']]
 print(ndf.head())
